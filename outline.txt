@@ -1,0 +1,22 @@
+1IF string starts with a VOWEL ('a','e','i','o','u') 
+	2then add 'way' to the end of string
+	
+	3else
+		move all consonants (any combo of bcdfghjklmnpqrstvwxyz) the end of string until the string begins with a vowel
+       and then 
+		4 add 'ay' to the end of string
+	 and return
+		5. edited string + 'ay'
+
+
+What have we used before that can help inform us how to tackle the challenge? 
+
+.join - can take the array we create and get back to STRING!
+.push - adds an element to an array, returns a whole array
+.shift - removes the first element from an array AND *returns that element*
+
+Let's store vowels in an array - 
+
+
+NEW WEAPONS??
+includes ()  - can run a boolean - T/F test for an included character
